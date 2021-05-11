@@ -71,3 +71,30 @@ img {
 .clear {
   clear: both;
 }
+/* sezione mobile {MEDIA QUERY} */
+@media screen and (max-width:575px){
+  *{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  .row{
+    width: 100%;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+        width: 100%;
+        float: none;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+          float: none;
+          width: 100%;
+  }
+  #why>.row , #lezioni> .row{
+          background-color: rgb(243, 207, 160);   
+  }
+   
+}
+/*  */
